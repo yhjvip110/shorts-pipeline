@@ -16,6 +16,10 @@ t3_*.png
 t5_*.png
 *.log
 
+# ===== Source preview frames (rebuildable, but keep preview_grid.png) =====
+assets/preview_t*.png
+assets/_ascii_tmp.py
+
 # ===== Backup / scratch =====
 *.bak
 _text_*.txt

@@ -2,6 +2,8 @@
 
 把一段文案变成可发布的抖音/小红书竖屏短视频（720×1280）。
 
+![preview](assets/preview_grid.png)
+
 **端到端**：TTS 配音 → Whisper 自动对齐字幕 → 音频反应式 ASCII 视觉层 → 渐变背景 → drawtext 烧字幕 → 合成出片。
 
 **全程本地**：ffmpeg + Python + faster-whisper，零云端 API 调用。

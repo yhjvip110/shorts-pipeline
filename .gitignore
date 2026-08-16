@@ -1,0 +1,46 @@
+# ===== Generated outputs (rebuildable) =====
+final*.mp4
+ascii_*.mp4
+ascii_layer.mp4
+bg_*.mp4
+bg_animated.mp4
+bgm*.mp3
+voiceover*.mp3
+seg*.mp3
+test_*.mp3
+
+# ===== Test artifacts =====
+frame_*.png
+t1_*.png
+t3_*.png
+t5_*.png
+*.log
+
+# ===== Backup / scratch =====
+*.bak
+_text_*.txt
+segments.txt
+script.txt.bak
+
+# ===== Legacy v1 artifacts =====
+render.bat
+render_v1.bat
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editor =====
+.vscode/
+.idea/
+*.swp
+
+# ===== Whisper cache =====
+# (HuggingFace cache — lives in ~/.cache/huggingface, not in repo, but just in case)
+models--*/
